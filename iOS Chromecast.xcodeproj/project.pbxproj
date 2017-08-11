@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57EC4A877DA19EB5CBC69FC5 /* Pods_iOS_Chromecast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B27FFD3051C03FB7AD1277A /* Pods_iOS_Chromecast.framework */; };
+		5E8C4DE1EC7BF6F75CA9E452 /* Pods_iOS_ChromecastUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E00D9508A7EE041DC2E183 /* Pods_iOS_ChromecastUITests.framework */; };
+		B8E2A9E6D22848DAF6B62B30 /* Pods_iOS_ChromecastTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4226FE2FC15EBA04D0EF8FC9 /* Pods_iOS_ChromecastTests.framework */; };
 		F3F917CB1F3E25E500D99118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F917CA1F3E25E500D99118 /* AppDelegate.swift */; };
 		F3F917CD1F3E25E500D99118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F917CC1F3E25E500D99118 /* ViewController.swift */; };
 		F3F917D01F3E25E500D99118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F917CE1F3E25E500D99118 /* Main.storyboard */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15937553A399351ABFAF03BA /* Pods-iOS Chromecast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Chromecast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Chromecast/Pods-iOS Chromecast.debug.xcconfig"; sourceTree = "<group>"; };
+		2B27FFD3051C03FB7AD1277A /* Pods_iOS_Chromecast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Chromecast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F168F5E3D87F6E723495E0F /* Pods-iOS ChromecastTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS ChromecastTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS ChromecastTests/Pods-iOS ChromecastTests.release.xcconfig"; sourceTree = "<group>"; };
+		4226FE2FC15EBA04D0EF8FC9 /* Pods_iOS_ChromecastTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_ChromecastTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		472CD9FA01A339D6BA4463F8 /* Pods-iOS ChromecastUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS ChromecastUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS ChromecastUITests/Pods-iOS ChromecastUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		87735359F33497DC8AE6B5C5 /* Pods-iOS ChromecastTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS ChromecastTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS ChromecastTests/Pods-iOS ChromecastTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A85784921AA8BFB8D8DD0C79 /* Pods-iOS Chromecast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Chromecast.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Chromecast/Pods-iOS Chromecast.release.xcconfig"; sourceTree = "<group>"; };
+		E0E00D9508A7EE041DC2E183 /* Pods_iOS_ChromecastUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_ChromecastUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F917C71F3E25E500D99118 /* iOS Chromecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Chromecast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F917CA1F3E25E500D99118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3F917CC1F3E25E500D99118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		F3F917E61F3E25E500D99118 /* iOS ChromecastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS ChromecastUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F917EA1F3E25E500D99118 /* iOS_ChromecastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_ChromecastUITests.swift; sourceTree = "<group>"; };
 		F3F917EC1F3E25E500D99118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8A46E5E63FC04CB560DBD58 /* Pods-iOS ChromecastUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS ChromecastUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS ChromecastUITests/Pods-iOS ChromecastUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57EC4A877DA19EB5CBC69FC5 /* Pods_iOS_Chromecast.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8E2A9E6D22848DAF6B62B30 /* Pods_iOS_ChromecastTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E8C4DE1EC7BF6F75CA9E452 /* Pods_iOS_ChromecastUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACB36BDA9AEBB67D297E4D94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15937553A399351ABFAF03BA /* Pods-iOS Chromecast.debug.xcconfig */,
+				A85784921AA8BFB8D8DD0C79 /* Pods-iOS Chromecast.release.xcconfig */,
+				87735359F33497DC8AE6B5C5 /* Pods-iOS ChromecastTests.debug.xcconfig */,
+				2F168F5E3D87F6E723495E0F /* Pods-iOS ChromecastTests.release.xcconfig */,
+				472CD9FA01A339D6BA4463F8 /* Pods-iOS ChromecastUITests.debug.xcconfig */,
+				F8A46E5E63FC04CB560DBD58 /* Pods-iOS ChromecastUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9707B9ECF8E00933C262222 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B27FFD3051C03FB7AD1277A /* Pods_iOS_Chromecast.framework */,
+				4226FE2FC15EBA04D0EF8FC9 /* Pods_iOS_ChromecastTests.framework */,
+				E0E00D9508A7EE041DC2E183 /* Pods_iOS_ChromecastUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F3F917BE1F3E25E500D99118 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				F3F917DE1F3E25E500D99118 /* iOS ChromecastTests */,
 				F3F917E91F3E25E500D99118 /* iOS ChromecastUITests */,
 				F3F917C81F3E25E500D99118 /* Products */,
+				ACB36BDA9AEBB67D297E4D94 /* Pods */,
+				D9707B9ECF8E00933C262222 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3F917EF1F3E25E500D99118 /* Build configuration list for PBXNativeTarget "iOS Chromecast" */;
 			buildPhases = (
+				7A81C6114473B46F979761BB /* [CP] Check Pods Manifest.lock */,
 				F3F917C31F3E25E500D99118 /* Sources */,
 				F3F917C41F3E25E500D99118 /* Frameworks */,
 				F3F917C51F3E25E500D99118 /* Resources */,
+				6CC5210B8DA6D7B1F5DAE4A3 /* [CP] Embed Pods Frameworks */,
+				67316A3A8218B8D6E56502A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3F917F21F3E25E500D99118 /* Build configuration list for PBXNativeTarget "iOS ChromecastTests" */;
 			buildPhases = (
+				39633FA477C755EB762E53FD /* [CP] Check Pods Manifest.lock */,
 				F3F917D71F3E25E500D99118 /* Sources */,
 				F3F917D81F3E25E500D99118 /* Frameworks */,
 				F3F917D91F3E25E500D99118 /* Resources */,
+				B7239ECDEA2D0FDF1F97AE6A /* [CP] Embed Pods Frameworks */,
+				76E47B311E3ABA20D4A587DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3F917F51F3E25E500D99118 /* Build configuration list for PBXNativeTarget "iOS ChromecastUITests" */;
 			buildPhases = (
+				9A087C53E3511BF56E5966C9 /* [CP] Check Pods Manifest.lock */,
 				F3F917E21F3E25E500D99118 /* Sources */,
 				F3F917E31F3E25E500D99118 /* Frameworks */,
 				F3F917E41F3E25E500D99118 /* Resources */,
+				62697DBF40814ED3E9336084 /* [CP] Embed Pods Frameworks */,
+				FC7A31116E646E000183E920 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39633FA477C755EB762E53FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS ChromecastTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62697DBF40814ED3E9336084 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS ChromecastUITests/Pods-iOS ChromecastUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67316A3A8218B8D6E56502A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Chromecast/Pods-iOS Chromecast-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CC5210B8DA6D7B1F5DAE4A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOS Chromecast/Pods-iOS Chromecast-frameworks.sh",
+				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-Public-3.5.2-Release/GoogleCast.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleCast.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Chromecast/Pods-iOS Chromecast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76E47B311E3ABA20D4A587DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS ChromecastTests/Pods-iOS ChromecastTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A81C6114473B46F979761BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS Chromecast-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A087C53E3511BF56E5966C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS ChromecastUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7239ECDEA2D0FDF1F97AE6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS ChromecastTests/Pods-iOS ChromecastTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC7A31116E646E000183E920 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS ChromecastUITests/Pods-iOS ChromecastUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F3F917C31F3E25E500D99118 /* Sources */ = {
@@ -415,6 +614,7 @@
 		};
 		F3F917F01F3E25E500D99118 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15937553A399351ABFAF03BA /* Pods-iOS Chromecast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YMG83K4C2B;
@@ -428,6 +628,7 @@
 		};
 		F3F917F11F3E25E500D99118 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A85784921AA8BFB8D8DD0C79 /* Pods-iOS Chromecast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YMG83K4C2B;
@@ -441,6 +642,7 @@
 		};
 		F3F917F31F3E25E500D99118 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87735359F33497DC8AE6B5C5 /* Pods-iOS ChromecastTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +658,7 @@
 		};
 		F3F917F41F3E25E500D99118 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F168F5E3D87F6E723495E0F /* Pods-iOS ChromecastTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +674,7 @@
 		};
 		F3F917F61F3E25E500D99118 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 472CD9FA01A339D6BA4463F8 /* Pods-iOS ChromecastUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = YMG83K4C2B;
@@ -485,6 +689,7 @@
 		};
 		F3F917F71F3E25E500D99118 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A46E5E63FC04CB560DBD58 /* Pods-iOS ChromecastUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = YMG83K4C2B;
