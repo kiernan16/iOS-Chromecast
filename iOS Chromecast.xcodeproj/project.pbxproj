@@ -17,6 +17,7 @@
 		F3F917D51F3E25E500D99118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F917D31F3E25E500D99118 /* LaunchScreen.storyboard */; };
 		F3F917E01F3E25E500D99118 /* iOS_ChromecastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F917DF1F3E25E500D99118 /* iOS_ChromecastTests.swift */; };
 		F3F917EB1F3E25E500D99118 /* iOS_ChromecastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F917EA1F3E25E500D99118 /* iOS_ChromecastUITests.swift */; };
+		F3F917F91F3E288D00D99118 /* GlobalParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F917F81F3E288D00D99118 /* GlobalParams.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		F3F917E61F3E25E500D99118 /* iOS ChromecastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS ChromecastUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F917EA1F3E25E500D99118 /* iOS_ChromecastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_ChromecastUITests.swift; sourceTree = "<group>"; };
 		F3F917EC1F3E25E500D99118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F917F81F3E288D00D99118 /* GlobalParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalParams.swift; sourceTree = "<group>"; };
 		F8A46E5E63FC04CB560DBD58 /* Pods-iOS ChromecastUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS ChromecastUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS ChromecastUITests/Pods-iOS ChromecastUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +141,7 @@
 			children = (
 				F3F917CA1F3E25E500D99118 /* AppDelegate.swift */,
 				F3F917CC1F3E25E500D99118 /* ViewController.swift */,
+				F3F917F81F3E288D00D99118 /* GlobalParams.swift */,
 				F3F917CE1F3E25E500D99118 /* Main.storyboard */,
 				F3F917D11F3E25E500D99118 /* Assets.xcassets */,
 				F3F917D31F3E25E500D99118 /* LaunchScreen.storyboard */,
@@ -462,6 +465,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3F917CD1F3E25E500D99118 /* ViewController.swift in Sources */,
+				F3F917F91F3E288D00D99118 /* GlobalParams.swift in Sources */,
 				F3F917CB1F3E25E500D99118 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -721,6 +725,7 @@
 				F3F917F11F3E25E500D99118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3F917F21F3E25E500D99118 /* Build configuration list for PBXNativeTarget "iOS ChromecastTests" */ = {
 			isa = XCConfigurationList;
@@ -729,6 +734,7 @@
 				F3F917F41F3E25E500D99118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3F917F51F3E25E500D99118 /* Build configuration list for PBXNativeTarget "iOS ChromecastUITests" */ = {
 			isa = XCConfigurationList;
@@ -737,6 +743,7 @@
 				F3F917F71F3E25E500D99118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
