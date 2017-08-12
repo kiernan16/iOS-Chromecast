@@ -111,9 +111,29 @@ class ViewController: UIViewController, GCKDeviceScannerListener, GCKDeviceManag
     }
     
     func buildMediaInformation() -> GCKMediaInformation {
-       // let mediaInfo = GCKMediaInformation.init(contentID: "Big Buck Bunny", streamType: GCKMediaStreamType.buffered, contentType: "video/mp4", metadata: nil, streamDuration: TimeInterval(playerDurationINT), customData: nil)
+        /*
+ GCKMediaMetadata *metadata =
+ [[GCKMediaMetadata alloc] initWithMetadataType:GCKMediaMetadataTypeMovie];
+ [metadata setString:self.mediaInfo.title forKey:kGCKMetadataKeyTitle];
+ [metadata setString:self.mediaInfo.subtitle forKey:kMediaKeyDescription];
+ [metadata setString:self.mediaInfo.studio forKey:kGCKMetadataKeyStudio];
+ 
+ [metadata addImage:[[GCKImage alloc] initWithURL:self.mediaInfo.imageURL
+ width:480
+ height:720]];
+ [metadata addImage:[[GCKImage alloc] initWithURL:self.mediaInfo.posterURL
+ width:480
+ height:720]];
+ */
+ 
         
-        let mediaInfo = GCKMediaInformation.init(contentID: (url?.absoluteString)!, streamType: GCKMediaStreamType.buffered, contentType: "video/mp4", metadata: nil, streamDuration: TimeInterval(playerDurationINT), customData: nil)
+        let metadata = GCKMediaMetadata.init(metadataType: GCKMediaMetadataType.movie)
+        metadata.setString("BBB", forKey: kGCKMetadataKeyTitle)
+        metadata.setString("nielsen studio", forKey: kGCKMetadataKeyStudio)
+ 
+//        let mediaInfo = GCKMediaInformation.init(contentID: "Big Buck Bunny", streamType: GCKMediaStreamType.buffered, contentType: "video/mp4", metadata: metadata, streamDuration: TimeInterval(playerDurationINT), customData: nil)
+        
+        let mediaInfo = GCKMediaInformation.init(contentID: (url?.absoluteString)!, streamType: GCKMediaStreamType.buffered, contentType: "video/mp4", metadata: metadata, streamDuration: TimeInterval(playerDurationINT), customData: nil)
         
         return mediaInfo
     }
@@ -123,7 +143,7 @@ class ViewController: UIViewController, GCKDeviceScannerListener, GCKDeviceManag
     func playSelectedItemRemotely() {
         let castSession = GCKCastContext.sharedInstance().sessionManager.currentSession
         if ((castSession) != nil) {
-            castSession?.remoteMediaClient?.loadMedia(self.buildMediaInformation(), autoplay: true)
+            castSession?.remoteMediaClient?.loadMedia(buildMediaInformation(), autoplay: true)
         } else {
             print("no castSession!")
         }
@@ -222,11 +242,6 @@ class ViewController: UIViewController, GCKDeviceScannerListener, GCKDeviceManag
     func sessionManager(_ sessionManager: GCKSessionManager, didFailToStart session: GCKCastSession, withError error: Error) {
         
     }
-    
-    
-//MARK: - Chromecast functions
-    
-    
 
     
     

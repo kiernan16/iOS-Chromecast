@@ -9,7 +9,8 @@
 import UIKit
 import GoogleCast
 
-let kReceiverAppID = "088A698C" //let kReceiverAppID = "4BE79C31"
+let kReceiverAppID = "088A698C" 
+//let kReceiverAppID = "4BE79C31"
 let kDebugLoggingEnabled = true
 
 
